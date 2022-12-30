@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar'
 import Carousell from './Carousell';
 import Header from './Header';
 import Comments from './Comments';
+import Footer from '../Footer/Footer';
 
 const MainPage = () => {
   return (
@@ -13,7 +14,7 @@ const MainPage = () => {
         <Carousell />
       </div>
       <Comments />
-      
+      <Footer />
     </div>
   )
 }

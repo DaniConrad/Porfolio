@@ -2,7 +2,6 @@ import React from 'react'
 
 const Comments = () => {
   return (
-    <div>
   <div className="min-w-screen min-h-screen bg-gray-50 flex items-center justify-center py-5">
     <div className="w-full bg-gray-200 border-t border-b border-gray-200 px-5 py-16 md:py-24 text-gray-800">
       <div className="w-full max-w-6xl mx-auto">
@@ -183,7 +182,6 @@ const Comments = () => {
       </div>
     </div>
   </div>
-    </div>
   )
 }
 

@@ -24,3 +24,111 @@ body {
 .main_page_container{
   min-height: 90vh;
 }
+
+.main_page_contact_comments_container{
+  background-color: #fce2dba9;
+}
+
+.main_page_contact_comments_container_aboutme{
+  background-color: #80489C;
+}
+
+/* --  */
+
+.navigation
+{
+    position: relative;
+    width: 450px;
+    height: 70px;
+    background: #fff;
+    align-items: center;
+    border-radius: 10px;
+}
+.navigation ul
+{
+    width: 400px;
+}
+.navigation ul li
+{
+    width: 70px;
+    height: 70px;
+}
+.navigation ul li a .icon
+{
+    line-height: 75px;
+    transition: 0.5s;
+    color: #222327;
+}
+/* Hover Animation */
+.navigation ul li.active a .icon
+{
+    transform: translateY(-32px);
+}
+.navigation ul li a .text
+{
+    
+    color:#3c5aa6;
+    transition: 0.5s;
+    transform: translateY(20px);
+}
+.navigation ul li.active a .text
+{
+    opacity: 1;
+    transform: translateY(10px);
+}
+.indicator
+{
+    top: -50%;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background:  #f705ff;
+    border-radius: 50%;
+    border: 6px solid #1b1c23;
+    transition: 0.5s;
+}
+/* Adornos a la caja */
+.indicator::before
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -22px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-right-radius:20px ;
+}
+.indicator::after
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -22px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-left-radius:20px ;
+}
+
+/* Ciecle botton animation */
+.navigation ul li:nth-child(1).active ~ .indicator
+{
+    transform: translateX(calc(70px * 0));
+}
+.navigation ul li:nth-child(2).active ~ .indicator
+{
+    transform: translateX(calc(70px * 1 ));
+}
+.navigation ul li:nth-child(3).active ~ .indicator
+{
+    transform: translateX(calc(70px * 2));
+}
+.navigation ul li:nth-child(4).active ~ .indicator
+{
+    transform: translateX(calc(70px * 3));
+}
+.navigation ul li:nth-child(5).active ~ .indicator
+{
+    transform: translateX(calc(70px * 4));
+}
