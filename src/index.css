@@ -9,7 +9,7 @@ body {
   background-size: cover;
 }
 
-.main_page{
+.home{
   background-image: linear-gradient(rgba(33, 30, 197, 0.37), rgba(0, 0, 0, 0.74)), url("../public/img/social-media.jpg");
   background-size: cover;
 }
@@ -84,7 +84,7 @@ body {
     height: 70px;
     background:  #f705ff;
     border-radius: 50%;
-    border: 6px solid #1b1c23;
+    border: 6px solid #000;
     transition: 0.5s;
 }
 /* Adornos a la caja */
@@ -98,6 +98,7 @@ body {
     height: 20px;
     background: transparent;
     border-top-right-radius:20px ;
+    box-shadow: 0px -10px 0 0 #000;
 }
 .indicator::after
 {
@@ -109,6 +110,7 @@ body {
     height: 20px;
     background: transparent;
     border-top-left-radius:20px ;
+    box-shadow: -1px -10px 0 0 #000;
 }
 
 /* Ciecle botton animation */
@@ -131,4 +133,9 @@ body {
 .navigation ul li:nth-child(5).active ~ .indicator
 {
     transform: translateX(calc(70px * 4));
+}
+
+/* --Footer Mobile  */
+ion-icon {
+    color: #fff;
 }

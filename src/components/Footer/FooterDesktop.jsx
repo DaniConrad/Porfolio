@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Footer = () => {
+const FooterDesktop = () => {
 
     const [id, setId] = useState('1')
 
@@ -12,7 +12,7 @@ const Footer = () => {
     }
 
   return (
-    <footer>
+    <footer className='py-8 bg-black'>
         <div className="flex justify-center my-3 items-center">
         <div className="navigation flex justify-center items-center">
   <ul className='flex'>
@@ -67,4 +67,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default FooterDesktop
