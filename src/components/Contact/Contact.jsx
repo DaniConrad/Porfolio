@@ -6,11 +6,11 @@ const Contact = () => {
   {/* Section: Design Block */}
   <section className="mb-32 text-gray-800">
     <div
-      className="relative overflow-hidden bg-no-repeat bg-cover"
+      className="relative overflow-hidden bg-no-repeat bg-cover contact123"
       style={{
         backgroundPosition: "50%",
-        backgroundImage:
-          'url("https://mdbootstrap.com/img/new/textures/full/284.jpg")',
+        // backgroundImage:
+        //   'url("https://images.tech.co/wp-content/uploads/2022/10/14123538/socialmedia-1-1024x512.jpg")',
         height: 300
       }}
     ></div>
@@ -110,6 +110,7 @@ const Contact = () => {
               <button
                 type="submit"
                 className="
+                contactButton
         w-full
         px-6
         py-2.5
@@ -137,7 +138,7 @@ const Contact = () => {
               <div className="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
                 <div className="flex items-start">
                   <div className="shrink-0">
-                    <div className="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                    <div className="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center contactButton">
                       <svg
                         aria-hidden="true"
                         focusable="false"
@@ -165,7 +166,7 @@ const Contact = () => {
               <div className="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
                 <div className="flex items-start">
                   <div className="shrink-0">
-                    <div className="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                    <div className="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center contactButton">
                       <svg
                         aria-hidden="true"
                         focusable="false"
@@ -193,7 +194,7 @@ const Contact = () => {
               <div className="mb-12 md:mb-0 grow-0 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
                 <div className="flex align-start">
                   <div className="shrink-0">
-                    <div className="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                    <div className="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center contactButton">
                       <svg
                         aria-hidden="true"
                         focusable="false"
@@ -221,7 +222,7 @@ const Contact = () => {
               <div className="grow-0 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
                 <div className="flex align-start">
                   <div className="shrink-0">
-                    <div className="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                    <div className="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center contactButton">
                       <svg
                         aria-hidden="true"
                         focusable="false"

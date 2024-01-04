@@ -1,11 +1,16 @@
+// -- Hooks --
 import React, { useEffect } from 'react'
-import Carousell from './Carousell';
+import { useResponsive } from '../../hooks/useResponsive';
+import { useLocation } from 'react-router-dom';
+// -- Components -
 import Header from './Header';
 import Comments from './Comments';
 import FooterDesktop from '../Footer/FooterDesktop';
-import { useResponsive } from '../../hooks/useResponsive';
 import FooterMobile from '../Footer/FooterMobile';
-import { useLocation } from 'react-router-dom';
+import AboutMe from '../AboutMe/AboutMe'
+import ServicesPage from '../ServicesPage/ServicesPage'
+
+// --
 
 const MainPage = ({ onDataChanged }) => {
 
@@ -25,9 +30,8 @@ const MainPage = ({ onDataChanged }) => {
   return (
     <div className='main_page h-screen'>
       <Header />
-      <div className="2xl:container 2xl:mx-auto 2xl:px-0 py-3 px-10">
-        <Carousell />
-      </div>
+      <AboutMe />
+      <ServicesPage />
       <Comments />
       {responsive ? <FooterMobile /> : <FooterDesktop />} 
     </div>

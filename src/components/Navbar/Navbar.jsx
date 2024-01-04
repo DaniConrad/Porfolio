@@ -10,10 +10,11 @@ const Navbar = () => {
 
     const navigation = [
         { name: 'Home', href: '/', current: false },
+        { name: 'Sobre mí', href: '/about', current: false },
         { name: 'Servicios', href: '/services', current: false },
-        { name: 'Sobre Mí', href: '/about', current: false },
         { name: 'Portfolio', href: '/portfolio', current: false },
-        { name: 'Contacto', href: '/contact', current: false }
+        { name: 'Contacto', href: '/contact', current: false },
+        { name: 'Blog', href: '/blog', current: false },
     ]
 
     navigation.map(locationRef => {
@@ -26,7 +27,7 @@ const Navbar = () => {
     }
 
   return (
-    <Disclosure as="nav" className="bg-gray-800 bg-opacity-75 sticky top-0">
+    <Disclosure as="nav" className="bg-translucent bg-opacity-75 sticky top-0">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -50,7 +51,7 @@ const Navbar = () => {
                         <div
                             key={item.name}
                             className={classNames(
-                                item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                                item.current ? 'navButtonBack text-white' : 'text-gray-300 hover:bg-gray-300 hover:text-black',
                                 'px-3 py-2 rounded-md text-sm font-medium'
                             )}
                             aria-current={item.current ? 'page' : undefined}
