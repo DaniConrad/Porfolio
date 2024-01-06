@@ -19,7 +19,7 @@ const MainPage = ({ onDataChanged }) => {
   const location = useLocation()
 
   useEffect(() => {
-    checkViewport(5000)
+    checkViewport(100)
   }, [checkViewport])
 
   useEffect(() => {
