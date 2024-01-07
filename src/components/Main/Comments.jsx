@@ -25,11 +25,11 @@ const Comments = () => {
               <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                 <div className="w-full flex mb-4 items-center">
                   <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                    <img src="https://i.pravatar.cc/100?img=1" alt="" />
+                    <img src="./img/freya.jpg" alt="" />
                   </div>
                   <div className="flex-grow pl-3">
                     <h6 className="font-bold text-sm uppercase text-gray-600">
-                      Kenzie Edgar.
+                      <a href="https://www.instagram.com/freyacaviahue/" Target='_blank'>freyacaviahue</a>
                     </h6>
                   </div>
                 </div>
@@ -38,10 +38,7 @@ const Comments = () => {
                     <span className="text-lg leading-none italic font-bold text-gray-400 mr-1">
                       "
                     </span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                    sunt ratione dolor exercitationem minima quas itaque saepe
-                    quasi architecto vel! Accusantium, vero sint recusandae cum
-                    tempora nemo commodi soluta deleniti.
+                    Muy buena. Me ayudó mucho ya que hay herramientas que no manejo. Pienso que esta muy bueno sobretodo porque hay alguien experto que se encarga de hacer las redes. A veces estamos tan atareados que no podemos.
                     <span className="text-lg leading-none italic font-bold text-gray-400 ml-1">
                       "
                     </span>
@@ -78,11 +75,11 @@ const Comments = () => {
               <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                 <div className="w-full flex mb-4 items-center">
                   <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                    <img src="https://i.pravatar.cc/100?img=3" alt="" />
+                    <img src="./img/fyf.jpeg" alt="" />
                   </div>
                   <div className="flex-grow pl-3">
                     <h6 className="font-bold text-sm uppercase text-gray-600">
-                      Tommie Ewart.
+                    <a href="https://www.instagram.com/fyfserviciodeparrillas/" Target='_blank'>fyfserviciodeparrillas</a>
                     </h6>
                   </div>
                 </div>
@@ -91,8 +88,7 @@ const Comments = () => {
                     <span className="text-lg leading-none italic font-bold text-gray-400 mr-1">
                       "
                     </span>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Vitae, obcaecati ullam excepturi dicta error deleniti sequi.
+                    10 puntos, Excelente Dani!!
                     <span className="text-lg leading-none italic font-bold text-gray-400 ml-1">
                       "
                     </span>
@@ -130,11 +126,11 @@ const Comments = () => {
               <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                 <div className="w-full flex mb-4 items-center">
                   <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                    <img src="https://i.pravatar.cc/100?img=5" alt="" />
+                    <img src="./img/bqp.jpeg" alt="" />
                   </div>
                   <div className="flex-grow pl-3">
                     <h6 className="font-bold text-sm uppercase text-gray-600">
-                      Nevada Herbertson.
+                    <a href="https://www.instagram.com/serviciosanitario.pigue/" Target='_blank'>serviciosanitario.pigue</a>
                     </h6>
                   </div>
                 </div>
@@ -143,10 +139,7 @@ const Comments = () => {
                     <span className="text-lg leading-none italic font-bold text-gray-400 mr-1">
                       "
                     </span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nobis, voluptatem porro obcaecati dicta, quibusdam sunt ipsum,
-                    laboriosam nostrum facere exercitationem pariatur deserunt
-                    tempora molestiae assumenda nesciunt alias eius? Illo, autem!
+                    La verdad que exelente! Nada para agregar que no sea felicitaciones por el trabajo realizado!
                     <span className="text-lg leading-none italic font-bold text-gray-400 ml-1">
                       "
                     </span>
