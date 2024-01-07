@@ -11,9 +11,12 @@
     --scroll-radius: 20px;
     --scroll-track: rgba(255, 255, 255, 0);
     --scroll-thumb: linear-gradient(45deg, #850091, #a84fb0);
+    --ion-color-sdnd: #850091
   }
 
-  
+  .ion-color-sdnd {
+    --ion-color-base: var(--ion-color-sdnd);
+  }  
   
 body {
   font-family: 'Roboto', sans-serif;
