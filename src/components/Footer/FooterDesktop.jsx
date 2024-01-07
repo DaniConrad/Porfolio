@@ -25,7 +25,7 @@ const FooterDesktop = () => {
               </a>
             </li>
             <li className={`list relative list-none z-10 ${id === '2' ? "active" : ""}`} onMouseOver={handleMouseOver}>
-              <a href="https://wa.me/5492923693916?text=¡Hola%20Danila!%20vengo%20de%20la%20web%20para%20consultarte%20por%20" className='relative flex justify-center items-center flex-col text-center w-full' Target="_blank">
+              <a href="https://wa.me/+5492923659077?text=¡Hola%20Danila!,%20vengo%20de%20la%20web%20para%20consultarte%20por%20" className='relative flex justify-center items-center flex-col text-center w-full' Target="_blank">
                 <span className="icon relative block text-center text-2xl">
                   <ion-icon name="logo-whatsapp" id='2' />
                 </span>

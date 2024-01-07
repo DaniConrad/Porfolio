@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap');
 
 
 
@@ -176,12 +177,20 @@ ion-icon {
 
 /* Fonts  */
 .aboutme{
-    background-image: url("../public/img/aboutmebackground1.svg");
+    /* background-image: url("../public/img/pexels-jess-bailey-designs-1007023.jpg"); */
     background-size: cover;
 }
 
+
+
 .about_me_title {
-    font-family: 'Tangerine', cursive;
+    /* font-family: 'Tangerine', cursive; */
+    font-family: 'Great Vibes', cursive;
+    font-size: 10rem;
+}
+.about_me_container {
+    background-image: linear-gradient(rgba(185, 185, 185, 0.411), rgba(151, 150, 151, 0.74)),url("../public/img/pexels-jess-bailey-designs-1007023.jpg");
+    background-size: cover;
 }
 
 body::-webkit-scrollbar {

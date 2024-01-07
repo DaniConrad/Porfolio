@@ -4,13 +4,13 @@ const AboutMe = () => {
 
   return (
 
-    <div className='grid place-items-center '>
-      <div className='flex w-10/12 bg-slate-300 shadow-2xl aboutme rounded-xl'>
+    <div className='grid place-items-center about_me_container'>
+      <div className='flex w-10/12 aboutme rounded-xl'>
         <div className='flex flex-col  justify-center w-8/12 mb-10 ml-10'>
           <h3 className='about_me_title text-9xl tracking-tighter mt-10'>
             Sobre mi
           </h3>
-          <p className='w-4/6 font-bold'>
+          <p className='w-4/6 font-bold text-xl'>
             Soy Danila, Community & Social Media Manager. Mi marca personal se llama SoyDanilaNoDaniela.
 
             Me desempeño como CM hace 2 años, principalmente en Redes Sociales como Facebook, Instagram & TikTok, pero sigo capacitandome día a día para mejorar.
