@@ -19,14 +19,14 @@ const MainPage = ({ onDataChanged }) => {
   const location = useLocation()
 
   useEffect(() => {
-    checkViewport(100)
+    checkViewport(1200)
   }, [checkViewport])
 
   useEffect(() => {
     onDataChanged(location.pathname);
   })
   
-
+console.log(responsive);
   return (
     <div className='main_page h-screen'>
       <Header />
