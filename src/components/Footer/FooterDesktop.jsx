@@ -56,6 +56,14 @@ const FooterDesktop = () => {
                 <span className="text absolute text-sm font-normal text-xs tracking-tighter opacity-0">Linkedin</span>
               </a>
             </li>
+            <li className={`list relative list-none z-10 ${id === '6' ? "active" : ""}`} onMouseOver={handleMouseOver}>
+              <a href="https://www.behance.net/danilamuller" className='relative flex justify-center items-center flex-col text-center w-full' Target="_blank">
+                <span className="icon relative block text-center text-2xl">
+                  <ion-icon name="logo-behance" id='6' />
+                </span>
+                <span className="text absolute text-sm font-normal text-xs tracking-tighter opacity-0">Behance</span>
+              </a>
+            </li>
             <div className="indicator" />
           </ul>
         </div>
