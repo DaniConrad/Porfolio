@@ -176,8 +176,8 @@ body {
     transform: translateX(calc(70px * 5));
 }
 
-/* --Footer Mobile  */
-ion-icon {
+/* --Footer desktop  */
+.footerIcons {
     color: #000000;
 }
 
@@ -203,6 +203,9 @@ ion-icon {
     font-family: 'Montserrat', sans-serif;
 }
 
+.contactFormIcons {
+    color: #f0f0f0;
+}
 
 body::-webkit-scrollbar {
     width: var(--scroll-size, 10px);
