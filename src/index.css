@@ -192,7 +192,6 @@ body {
 .about_me_title {
     /* font-family: 'Tangerine', cursive; */
     font-family: 'Great Vibes', cursive;
-    font-size: 10rem;
 }
 .about_me_container {
     background-image: linear-gradient(rgba(185, 185, 185, 0.411), rgba(151, 150, 151, 0.74)),url("../public/img/pexels-jess-bailey-designs-1007023.jpg");

@@ -3,12 +3,12 @@ import React, { useEffect } from 'react'
 import { useResponsive } from '../../hooks/useResponsive';
 import { useLocation } from 'react-router-dom';
 // -- Components -
-import Header from './Header';
-import Comments from './Comments';
 import FooterDesktop from '../Footer/FooterDesktop';
 import FooterMobile from '../Footer/FooterMobile';
-import AboutMe from '../AboutMe/AboutMe'
-import ServicesPage from '../ServicesPage/ServicesPage'
+import AboutMe from './AboutMe/AboutMe';
+import ServicesSection from './ServicesSection/ServicesSection'
+import Header from './Header/Header';
+import Comments from './Comments/Comments';
 
 // --
 
@@ -27,10 +27,10 @@ const MainPage = ({ onDataChanged }) => {
   })
   
   return (
-    <div className='main_page h-screen'>
+    <div>
       <Header />
       <AboutMe />
-      <ServicesPage />
+      <ServicesSection />
       <Comments />
       {responsive ? <FooterMobile /> : <FooterDesktop />} 
     </div>
