@@ -17,7 +17,7 @@ const FooterDesktop = () => {
         <div className="navigation flex justify-center items-center">
           <ul className='flex'>
             <li className={`list relative list-none z-10 ${id === '1' ? "active" : ""}`} onMouseOver={handleMouseOver}>
-              <a href="mailto:danilagmuller@gmail.com?subject=Consulta%20desde%20la%20web&body=¡Hola%20Danila!%20me%20gustaría%20recibir%20información%20sobre%20" className='relative flex justify-center items-center flex-col text-center w-full' Target="_blank">
+              <a href="mailto:soydanilanodaniela@gmail.com?subject=Consulta%20desde%20la%20web&body=¡Hola%20Danila!%20me%20gustaría%20recibir%20información%20sobre%20" className='relative flex justify-center items-center flex-col text-center w-full' Target="_blank">
                 <span className="icon relative block text-center text-2xl">
                   <ion-icon name="mail" id='1' className="bg-lig" style={{ color: 'black' }} />
                 </span>
