@@ -1,9 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainPage from './components/Main/MainPage';
-import Portfolio from './components/Portfolio/Portfolio';
-import ServicesPage from './components/ServicesPage/ServicesPage';
 import Error404 from './components/Error404/Error404';
-import AboutMe from './components/AboutMe/AboutMe';
 import Contact from './components/Contact/Contact';
 import { useState } from 'react';
 import Navbar from './components/Navbar/Navbar'
