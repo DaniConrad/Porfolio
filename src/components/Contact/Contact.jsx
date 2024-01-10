@@ -9,7 +9,6 @@ const Contact = () => {
         <div className="container text-gray-800 px-4 md:px-12">
           <div className="block rounded-lg shadow-lg py-10 md:py-12 px-2 md:px-6 relative -top-52 sm:-top-32"
             style={{
-              // marginTop: "-100px",
               background: "hsla(0, 0%, 100%, 0.8)",
               backdropFilter: "blur(30px)"
             }}
