@@ -13,7 +13,7 @@ const ServicesPage = () => {
   ]
 
   return (
-    <div className='grid grid-cols-3 gap-4 p-10'>
+    <div className='grid grid-cols-3 gap-4 p-10' id='services'>
       {
         items.map(item => (
           <div  className="flex flex-col items-center m-5 hover:scale-125 transition duration-500" key={Math.random()}>

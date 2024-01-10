@@ -1,20 +1,23 @@
 import React from 'react'
 import { Disclosure} from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useLocation } from "react-router-dom"
+import { Button, scroller } from 'react-scroll';
 
 const Navbar = () => {
 
     const sampleLocation = useLocation();
+    const navigate = useNavigate();
 
+    // Used to highlight the current item on Navbar, it changes the current value 
     const navigation = [
         { name: 'Home', href: '/', current: false },
-        { name: 'Sobre mí', href: '/about', current: false },
-        { name: 'Servicios', href: '/services', current: false },
-        { name: 'Portfolio', href: '/portfolio', current: false },
+        { name: 'Sobre mí', href: 'about', current: false },
+        { name: 'Servicios', href: 'services', current: false },
+        { name: 'Portfolio', href: 'https://erfgds.my.canva.site/portfolio-2024-danila-muller-community-manager', current: false },
         { name: 'Contacto', href: '/contact', current: false },
-        { name: 'Blog', href: '/blog', current: false },
+        { name: 'Blog', href: 'https://soydanilanodaniela.blogspot.com', current: false },
     ]
 
     navigation.map(locationRef => {
@@ -25,6 +28,29 @@ const Navbar = () => {
     function classNames(...classes) {
         return classes.filter(Boolean).join(' ')
     }
+    // --
+
+    // It's used to select if need to navigate to another link or only in the currrent page.
+
+    const hrefNavigator = (href) => {
+      if (href.startsWith("/")) {
+        navigate(href);
+        return
+      }
+      // Used to go to extenal webpage
+      if (href.startsWith("h")){
+        window.open(href, '_blank');
+        return
+      }
+      scroller.scrollTo(href, {
+        duration: 800,
+        smooth: 'easeInOutQuart',
+        // Here can change the scroll to center the elements 
+        offset: -window.innerHeight / 7 
+    });
+      
+    }
+    // --
 
   return (
     <Disclosure as="nav" className="bg-translucent bg-opacity-75 sticky top-0">
@@ -47,7 +73,7 @@ const Navbar = () => {
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <Link to={item.href}>
+                      <Button onClick={()=>hrefNavigator(item.href)} smooth={true} duration={800} >
                         <div
                             key={item.name}
                             className={classNames(
@@ -58,7 +84,7 @@ const Navbar = () => {
                         >
                             {item.name}
                         </div>
-                      </Link>   
+                      </Button>   
                     ))}
                   </div>
                 </div>

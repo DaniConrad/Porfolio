@@ -22,9 +22,6 @@ function App() {
       <Navbar />
       <Routes>
           <Route path='/' element={<MainPage onDataChanged={handleDataChange}/>}  />
-          <Route path='/portfolio' element={<Portfolio onDataChanged={handleDataChange}/>} />
-          <Route path='/services' element={<ServicesPage onDataChanged={handleDataChange}/>} />
-          <Route path='/about' element={<AboutMe onDataChanged={handleDataChange}/>} />
           <Route path='/contact' element={<Contact onDataChanged={handleDataChange}/>} />
 
           <Route path='*' element={ <Error404 /> } />

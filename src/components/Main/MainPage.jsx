@@ -26,7 +26,6 @@ const MainPage = ({ onDataChanged }) => {
     onDataChanged(location.pathname);
   })
   
-console.log(responsive);
   return (
     <div className='main_page h-screen'>
       <Header />

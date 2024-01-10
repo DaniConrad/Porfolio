@@ -4,7 +4,7 @@ const AboutMe = () => {
 
   return (
 
-    <div className='grid place-items-center about_me_container'>
+    <div className='grid place-items-center about_me_container' id='about'>
       <div className='flex w-10/12 aboutme rounded-xl'>
         <div className='flex flex-col  justify-center w-8/12 mb-10 ml-10'>
           <h3 className='about_me_title text-9xl tracking-tighter mt-10'>
