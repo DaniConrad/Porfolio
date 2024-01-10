@@ -37,7 +37,7 @@ const Navbar = () => {
         navigate(href);
         return
       }
-      // Used to go to extenal webpage
+      // Used to go to external webpage
       if (href.startsWith("h")){
         window.open(href, '_blank');
         return
