@@ -95,7 +95,7 @@ const Navbar = () => {
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 px-2 pt-2 pb-3">
               {navigation.map((item) => (
-                <Link to={item.href}>
+                <Button  onClick={()=>hrefNavigator(item.href)} smooth={true} duration={800} >
                     <Disclosure.Button
                         key={item.name}
                         as="a"
@@ -107,7 +107,7 @@ const Navbar = () => {
                         >
                         {item.name}
                     </Disclosure.Button>
-                </Link>
+                </Button>
                 
               ))}
             </div>
