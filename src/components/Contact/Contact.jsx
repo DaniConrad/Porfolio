@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className="container px-6 mx-auto">
+    <div className="container px-6 mx-auto md:relative md:top-20 sm:top-15">
       {/* Section: Design Block */}
       <section className="text-gray-800">
         <div className="relative overflow-hidden bg-no-repeat bg-cover bg-center h-80 contact123"> </div>
