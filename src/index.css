@@ -220,5 +220,17 @@ body::-webkit-scrollbar {
     border-radius: var(--scroll-thumb-radius, var(--scroll-radius));
   }
 
+  .whatsapp_bot{
+    color: green;
+  }
 
+  .hover\:flip-and-move {
+    transition: transform 1s;
+  }
+  
+  .hover\:flip-and-move:hover {
+    transform: perspective(1000px) rotateY(180deg) translateY(-20px);
+    animation-delay: 1000ms;
+    transform: perspective(1000px) rotateY(359deg) translateY(0);
+  }
 

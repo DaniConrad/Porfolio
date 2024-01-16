@@ -4,6 +4,7 @@ import Error404 from './components/Error404/Error404';
 import Contact from './components/Contact/Contact';
 import { useState } from 'react';
 import Navbar from './components/Navbar/Navbar'
+import WhatsappBot from './components/WhatsappBot/WhatsappBot';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
   <BrowserRouter>
     <div className={`App ${data === '' ? 'home' : data}`} >
       <Navbar />
+      <WhatsappBot />
       <Routes>
           <Route path='/' element={<MainPage onDataChanged={handleDataChange}/>}  />
           <Route path='/contact' element={<Contact onDataChanged={handleDataChange}/>} />
