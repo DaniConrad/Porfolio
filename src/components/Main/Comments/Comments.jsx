@@ -25,7 +25,7 @@ const Comments = () => {
               <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                 <div className="w-full flex mb-4 items-center">
                   <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                    <img src="./img/freya.jpg" alt="" />
+                    <img src="./img/freya.webp" alt="" />
                   </div>
                   <div className="flex-grow pl-3">
                     <h6 className="font-bold text-sm uppercase text-gray-600">
@@ -75,7 +75,7 @@ const Comments = () => {
               <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                 <div className="w-full flex mb-4 items-center">
                   <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                    <img src="./img/fyf.jpeg" alt="" />
+                    <img src="./img/fyf.webp" alt="" />
                   </div>
                   <div className="flex-grow pl-3">
                     <h6 className="font-bold text-sm uppercase text-gray-600">
@@ -126,7 +126,7 @@ const Comments = () => {
               <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                 <div className="w-full flex mb-4 items-center">
                   <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                    <img src="./img/bqp.jpeg" alt="" />
+                    <img src="./img/bqp.webp" alt="" />
                   </div>
                   <div className="flex-grow pl-3">
                     <h6 className="font-bold text-sm uppercase text-gray-600">

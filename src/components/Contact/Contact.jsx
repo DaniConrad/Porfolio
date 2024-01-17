@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="container px-6 mx-auto md:relative md:top-20 sm:top-15">
       {/* Section: Design Block */}
       <section className="text-gray-800">
-        <div className="relative overflow-hidden bg-no-repeat bg-cover bg-center h-80 contact123"> </div>
+        <div className="relative overflow-hidden bg-no-repeat bg-cover bg-center h-80 contact"> </div>
         <div className="container text-gray-800 px-4 md:px-12">
           <div className="block rounded-lg shadow-lg py-10 md:py-12 px-2 md:px-6 relative -top-52 sm:-top-32"
             style={{
