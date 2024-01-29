@@ -17,7 +17,7 @@ const AboutMe = () => {
           </p>
         </div>
         <div className='flex justify-center w-8/12 h-5/6 m-2'>
-          <img src="./img/aboutme.png" alt="" className='sm:my-8 rounded-full' />
+          <img src="./img/aboutme.webp" alt="" className='sm:my-8 rounded-full' />
         </div>
       </div>
     </div>
